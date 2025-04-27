@@ -1,6 +1,6 @@
 use std::borrow::Cow;
 
-use crate::{unescape, Result};
+use crate::{error::Result, unescape};
 
 use regex::bytes::Regex;
 
